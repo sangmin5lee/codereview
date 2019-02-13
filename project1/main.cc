@@ -19,6 +19,7 @@ static void popQueue(templatePriorityQueue<T>* Que){
 	Que->pop();
 }
 
+template<typename T>
 static void multipopQueue(templatePriorityQueue<T>* Que, const int count){
 	for(int i = 0 ; i < count ; ++i){
 		popQueue(Que);
